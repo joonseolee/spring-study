@@ -1,5 +1,14 @@
 # spring-bundle-example
 
-[x] aop
+공부하고싶은 작은 기능들을 하나의 모듈로써 구성함.
 
-it consists of each module project.
+## aop
+
+## cglib
+
+Code Generate Library 의 약자로써 프록시 생성을 해주는 라이브러리인데  
+실제로 스프링에서나 다른곳에서 많이 사용된다고 한다.  
+기본적인 의존 주입부터 동적인 인터셉터 적용까지 다양하게 사용가능하다.  
+`MethodInterceptor`가 많이 사용된다고하니 그것을 상속받는 형태로 구현가능할듯...  
+다만, 실제로 이것을 통해서 작업할일은 없어보이지만 문제풀다가 갑자기 궁금해서져서 포스팅함.  
+큰 틀은 `Enhancer`가 프록시를 생성하고 `Callback`을 통해 프록시 조작, 전처리 및 후처리 가능.   
