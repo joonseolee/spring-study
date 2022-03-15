@@ -20,7 +20,7 @@ subprojects {
 }
 
 project(':aop') {
-
+	dependencies {}
 }
 
 project(':cglib') {
