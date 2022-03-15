@@ -1,7 +1,6 @@
 package com.joonseolee.cglib.context;
 
 import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.cglib.proxy.Callback;
 import org.springframework.cglib.proxy.Enhancer;
 import org.springframework.cglib.proxy.NoOp;
@@ -9,7 +8,6 @@ import org.springframework.cglib.proxy.NoOp;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.is;
 
-@SpringBootTest
 public class MemberServiceTest {
 
     @Test
