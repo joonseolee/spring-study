@@ -1,3 +1,4 @@
 rootProject.name = 'spring-bundle-example'
 include 'aop'
 include 'cglib'
+include 'i18n'
