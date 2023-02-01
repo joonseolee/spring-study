@@ -1,4 +1,6 @@
-rootProject.name = 'spring-bundle-example'
+rootProject.name = 'spring-study'
 include 'aop'
 include 'cglib'
 include 'i18n'
+include 'asnyc'
+include 'enc'
